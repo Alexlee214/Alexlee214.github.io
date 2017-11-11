@@ -6,8 +6,47 @@ h1{
 
 body{
 	background-color: #555;
+	margin-top:100;
 }
 
 #pic{
 	max-width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.menu {
+    width: 100%;
+    background-color: grey;
+    overflow: hidden;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+    width: 12%;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.menu a:hover {
+    font-size: 25px
+    background-color: black;
+    color: yellow;
+}
+
+/* Add a color to the active/current link */
+.menu a.active {
+    background-color: #4CAF50;
+    color: white;
 }
