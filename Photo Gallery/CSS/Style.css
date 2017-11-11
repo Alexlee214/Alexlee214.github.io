@@ -15,7 +15,7 @@ body{
 
 /* Add a black background color to the top navigation */
 .menu {
-    width: 100%;
+    width: 99%;
     background-color: grey;
     overflow: hidden;
     margin-top: 0;
@@ -24,11 +24,12 @@ body{
 
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
+    display: inline-block
 }
 
 /* Style the links inside the navigation bar */
 .menu a {
-    width: 12%;
+    width: 8%;
     float: left;
     display: block;
     color: white;
@@ -36,17 +37,12 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    white-space: normal;
 }
 
 /* Change the color of links on hover */
 .menu a:hover {
-    font-size: 25px
+    font-size: 20px;
     background-color: black;
     color: yellow;
-}
-
-/* Add a color to the active/current link */
-.menu a.active {
-    background-color: #4CAF50;
-    color: white;
 }
