@@ -2,6 +2,21 @@
     width : 100%;
 }
 
+body {
+background-image: url(Picture art/Background.jpg); /*You will specify your image path here.*/
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+hr{
+    margin-bottom: 200;
+}
+
 #intro{
     margin-top: 100;
 	font-family: 'Nobile', Georgia, Times, serif;
@@ -9,7 +24,7 @@
 }
 
 h1{
-	color: white;
+	color: black;
 }
 
 
