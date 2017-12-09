@@ -1,3 +1,19 @@
+.hoverPic{
+    margin-right: 2%;
+    margin-top: 5;
+    margin-bottom: 5;
+}
+
+.hoverPic:hover{
+    transition: .8s ease;
+    opacity: 0.3;
+}
+
+.allPic{
+    margin-left:5 ;
+    max-width: 100%;
+}
+
 h1{
 	font-family: Arial;
 	font size: 250%;
@@ -7,10 +23,6 @@ h1{
 body{
 	background-color: #555;
 	margin-top:100;
-}
-
-#pic{
-	max-width: 100%;
 }
 
 /* Add a black background color to the top navigation */
