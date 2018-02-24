@@ -1,7 +1,8 @@
-.hoverPic{
-    margin-right: 2%;
-    margin-top: 5;
-    margin-bottom: 5;
+.hoverPic img{
+    width: 30%;
+    height: 20vw;
+    float: left;
+    padding: 1%;
 }
 
 .hoverPic:hover{
@@ -9,14 +10,31 @@
     opacity: 0.3;
 }
 
-.allPic{
+.hoverPic_v img{
+    width: 30%;
+    height: 40vw;
+    float: left;
+    padding: 1%;
+}
+
+.hoverPic_v:hover{
+    transition: .8s ease;
+    opacity: 0.3;
+}
+
+.allPic_horizontal{
+    margin-left:5 ;
+    max-width: 100%;
+}
+
+.allPic_horizontal{
     margin-left:5 ;
     max-width: 100%;
 }
 
 h1{
 	font-family: Arial;
-	font size: 250%;
+	font size: 2vw;
 	color: white;
 }
 
@@ -25,36 +43,168 @@ body{
 	margin-top:100;
 }
 
-/* Add a black background color to the top navigation */
 .menu {
     width: 99%;
     background-color: grey;
-    overflow: hidden;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
 
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    display: inline-block
+    text-align: center;
 }
 
 /* Style the links inside the navigation bar */
-.menu a {
-    width: 8%;
+.menu .menuItem a{
+    width: 12.27%;
     float: left;
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1% 1%;
     text-decoration: none;
     font-size: 20px;
+
     white-space: normal;
 }
 
+
 /* Change the color of links on hover */
 .menu a:hover {
-    font-size: 20px;
     background-color: black;
     color: yellow;
 }
+
+@media screen and (max-width:800px) {
+    .menu {
+        width: 99%;
+        background-color: grey;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        text-align: center;
+    }
+
+    /* Style the links inside the navigation bar */
+    .menu .menuItem a{
+        width: 12%;
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 1% 1%;
+        text-decoration: none;
+        font-size: 16px;
+        white-space: normal;
+    }
+
+
+    /* Change the color of links on hover */
+    .menu a:hover {
+        background-color: black;
+        color: yellow;
+    }
+
+    .hoverPic img{
+    width: 45%;
+    height: 25vw;
+    float: left;
+    padding: 1%;
+    }
+
+    .hoverPic:hover{
+        transition: .8s ease;
+        opacity: 0.3;
+    }
+
+    .hoverPic_v img{
+        width: 45%;
+        height: 45vw;
+        float: left;
+        padding: 1%;
+    }
+
+    .hoverPic_v:hover{
+        transition: .8s ease;
+        opacity: 0.3;
+    }
+
+    .allPic_horizontal{
+        margin-left:5 ;
+        max-width: 100%;
+    }
+
+    .allPic_horizontal{
+        margin-left:5 ;
+        max-width: 100%;
+    }    
+}    
+
+@media screen and (max-width:415px) {
+    .menu {
+        width: 99%;
+        background-color: grey;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        text-align: center;
+    }
+
+    /* Style the links inside the navigation bar */
+    .menu .menuItem a{
+        width: 12%;
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 1% 1%;
+        text-decoration: none;
+        font-size: 16px;
+        white-space: normal;
+    }
+
+
+    /* Change the color of links on hover */
+    .menu a:hover {
+        background-color: black;
+        color: yellow;
+    }
+
+    .hoverPic img{
+    width: 98%;
+    height: 55vw;
+    float: left;
+    padding: 1%;
+    }
+
+    .hoverPic:hover{
+        transition: .8s ease;
+        opacity: 0.3;
+    }
+
+    .hoverPic_v img{
+        width: 98%;
+        height: 108vw;
+        float: left;
+        padding: 1%;
+    }
+
+    .hoverPic_v:hover{
+        transition: .8s ease;
+        opacity: 0.3;
+    }
+
+    .allPic_horizontal{
+        margin-left:5 ;
+        max-width: 100%;
+    }
+
+    .allPic_horizontal{
+        margin-left:5 ;
+        max-width: 100%;
+    }    
+}    

@@ -1,9 +1,9 @@
-#body{
+.body{
     width : 100%;
 }
 
 body {
-background-image: url(Picture art/Background.jpg); /*You will specify your image path here.*/
+background-image: url(Picture art/Background.jpg);
 
 -moz-background-size: cover;
 -webkit-background-size: cover;
@@ -30,6 +30,7 @@ hr{
 }
 
 #intro{
+    clear: left;
     margin-top: 100;
 	font-family: 'Nobile', Georgia, Times, serif;
 	font size: 200%;
@@ -37,6 +38,7 @@ hr{
 
 h1{
 	color: black;
+    font-size:2.8vw;
 }
 
 
@@ -53,32 +55,114 @@ h3{
 .menu {
     width: 99%;
     background-color: grey;
-    overflow: hidden;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
 
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    display: inline-block
+    text-align: center;
 }
 
 /* Style the links inside the navigation bar */
-.menu a {
-    width: 8%;
+.menu .menuItem a{
+    width: 12.27%;
     float: left;
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1% 1%;
     text-decoration: none;
     font-size: 20px;
+
     white-space: normal;
 }
 
+
 /* Change the color of links on hover */
 .menu a:hover {
-    font-size: 20px;
     background-color: black;
     color: yellow;
+}
+
+
+@media screen and (max-width:500px) {
+    body {
+    background-image: url(Picture art/Background.jpg);
+
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 0 1px black;
+    }
+
+    #language{
+        float: right;
+        margin-top: 15;
+        margin-right: 5;
+        width: 100;
+        height: 20;
+        font-size: 15px;
+        -webkit-appearance: none;
+        color: grey;
+    }
+
+    hr{
+        margin-bottom: 200;
+    }
+
+    #intro{
+        margin-top: 100;
+        font-family: 'Nobile', Georgia, Times, serif;
+        font size: 200%;
+    }
+
+    h1{
+        color: black;
+        font-size : 4vw;
+    }
+
+
+    #Top{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    h3{
+        font-family: 'Nobile', Georgia, Times, serif;
+        color: white;
+    }
+
+    .menu {
+        width: 99%;
+        background-color: grey;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        text-align: center;
+    }
+
+    /* Style the links inside the navigation bar */
+    .menu .menuItem a{
+        width: 12%;
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 1% 1%;
+        text-decoration: none;
+        font-size: 16px;
+        white-space: normal;
+    }
+
+
+    /* Change the color of links on hover */
+    .menu a:hover {
+        background-color: black;
+        color: yellow;
+    }
 }
