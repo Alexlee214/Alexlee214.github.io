@@ -1,41 +1,107 @@
+.intro h1{
+    font-family: Arial;
+    font-size: 3vw;
+    color: white;
+}
+
 .hoverPic img{
-    width: 30%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 1%;
+}
+
+.hoverPic{
+    position: relative;
+    width: 31%;
     height: 20vw;
     float: left;
     padding: 1%;
 }
 
-.hoverPic:hover{
-    transition: .8s ease;
-    opacity: 0.3;
+.hoverPic:hover img{
+    opacity: 0.25;
+}
+
+.hoverPic:hover .textInfo{
+    opacity: 1;
+}
+
+.hoverPic:hover .picButton{
+    opacity: 1;
+}
+
+.textInfo{
+    margin-top: 10%;
+    text-align: center;
+    position: absolute;
+    width:95%;
+    height:70%;
+    opacity: 0;
+}
+
+.textInfo .text{
+    font-size: 20px;
+    color: white;
+}
+
+.textInfo .picButton{
+    margin-top: 10%;
+    margin-left: 30%;
+    width:40%;
+    height:20%;
+    background-color: green;
+    text-align: center;
+    opacity: 0;
+}
+
+.textInfo a{
+    text-decoration: none;
+    margin-top: 20%;
+    color:white;
+    font-size: 15px;
+    margin:10%;
+}
+
+.picButton h4{
+    text-decoration: none;
+    margin-top: 50%;
+    color:white;
+    font-size: 15px;
+    margin:10%;
 }
 
 .hoverPic_v img{
-    width: 30%;
-    height: 40vw;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 1%;
+}
+
+.hoverPic_v{
+    position: relative;
+    width: 31%;
+    height: 42vw;
     float: left;
     padding: 1%;
 }
 
 .hoverPic_v:hover{
-    transition: .8s ease;
-    opacity: 0.3;
+    opacity: 0.25;
 }
 
 .allPic_horizontal{
     margin-left:5 ;
-    max-width: 100%;
+    width: 100%;
+    height:auto;
 }
 
 .allPic_horizontal{
     margin-left:5 ;
-    max-width: 100%;
-}
-
-h1{
-	font-family: Arial;
-	font size: 2vw;
-	color: white;
+    width: 100%;
+    height:auto;
 }
 
 body{
@@ -53,6 +119,7 @@ body{
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     text-align: center;
+    z-index:99999;
 }
 
 /* Style the links inside the navigation bar */
@@ -76,6 +143,12 @@ body{
 }
 
 @media screen and (max-width:800px) {
+    .intro h1{
+        font-family: Arial;
+        font-size: 4vw;
+        color: white;
+    }
+
     .menu {
         width: 99%;
         background-color: grey;
@@ -94,7 +167,7 @@ body{
         float: left;
         color: white;
         text-align: center;
-        padding: 1% 1%;
+        padding: 2% 1%;
         text-decoration: none;
         font-size: 16px;
         white-space: normal;
@@ -107,29 +180,45 @@ body{
         color: yellow;
     }
 
-    .hoverPic img{
-    width: 45%;
-    height: 25vw;
+.hoverPic img{
+    position: relative;
+    width: 100%;
+    height: 100%;
     float: left;
     padding: 1%;
-    }
+}
 
-    .hoverPic:hover{
-        transition: .8s ease;
-        opacity: 0.3;
-    }
+.hoverPic{
+    position: relative;
+    width: 47%;
+    height: 30vw;
+    float: left;
+    padding: 1%;
+}
 
-    .hoverPic_v img{
-        width: 45%;
-        height: 45vw;
-        float: left;
-        padding: 1%;
-    }
+.hoverPic:hover{
+    opacity: 0.3;
+}
 
-    .hoverPic_v:hover{
-        transition: .8s ease;
-        opacity: 0.3;
-    }
+.hoverPic_v img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 1%;
+}
+
+.hoverPic_v{
+    position: relative;
+    width: 47%;
+    height: 65vw;
+    float: left;
+    padding: 1%;
+}
+
+.hoverPic_v:hover{
+    opacity: 0.3;
+}
 
     .allPic_horizontal{
         margin-left:5 ;
@@ -143,6 +232,12 @@ body{
 }    
 
 @media screen and (max-width:415px) {
+    .intro h1{
+        font-family: Arial;
+        font-size: 5vw;
+        color: white;
+    }
+
     .menu {
         width: 99%;
         background-color: grey;
@@ -161,9 +256,9 @@ body{
         float: left;
         color: white;
         text-align: center;
-        padding: 1% 1%;
+        padding: 2% 1%;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 12px;
         white-space: normal;
     }
 
@@ -175,26 +270,42 @@ body{
     }
 
     .hoverPic img{
-    width: 98%;
-    height: 55vw;
+    position: relative;
+    width: 100%;
+    height: 100%;
     float: left;
     padding: 1%;
     }
 
+    .hoverPic{
+        position: relative;
+        width: 98%;
+        height: 62vw;
+        float: left;
+        padding: 1%;
+    }
+
     .hoverPic:hover{
-        transition: .8s ease;
         opacity: 0.3;
     }
 
     .hoverPic_v img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 1%;
+    }
+
+    .hoverPic_v{
+        position: relative;
         width: 98%;
-        height: 108vw;
+        height: 125vw;
         float: left;
         padding: 1%;
     }
 
     .hoverPic_v:hover{
-        transition: .8s ease;
         opacity: 0.3;
     }
 
