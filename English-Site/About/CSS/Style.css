@@ -48,27 +48,34 @@ h3{
 .menu {
     width: 99%;
     background-color: grey;
-    overflow: hidden;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
 
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    display: inline-block
+    text-align: center;
+    z-index:99999;
 }
 
 /* Style the links inside the navigation bar */
-.menu a {
-    width: 8%;
+.menu .menuItem a{
+    width: 12.27%;
     float: left;
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1% 1%;
     text-decoration: none;
     font-size: 20px;
+
     white-space: normal;
+}
+
+
+/* Change the color of links on hover */
+.menu a:hover {
+    background-color: black;
+    color: yellow;
 }
 
 /* Change the color of links on hover */
@@ -77,3 +84,79 @@ h3{
     background-color: black;
     color: yellow;
 }
+
+@media screen and (max-width:800px) {
+    .intro h1{
+        font-family: Arial;
+        font-size: 4vw;
+        color: white;
+    }
+
+    .menu {
+        width: 99%;
+        background-color: grey;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        text-align: center;
+    }
+
+    /* Style the links inside the navigation bar */
+    .menu .menuItem a{
+        width: 12%;
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 2% 1%;
+        text-decoration: none;
+        font-size: 16px;
+        white-space: normal;
+    }
+
+
+    /* Change the color of links on hover */
+    .menu a:hover {
+        background-color: black;
+        color: yellow;
+    }
+
+@media screen and (max-width:415px) {
+    .intro h1{
+        font-family: Arial;
+        font-size: 5vw;
+        color: white;
+    }
+
+    .menu {
+        width: 99%;
+        background-color: grey;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        text-align: center;
+    }
+
+    /* Style the links inside the navigation bar */
+    .menu .menuItem a{
+        width: 12%;
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 2% 1%;
+        text-decoration: none;
+        font-size: 12px;
+        white-space: normal;
+    }
+
+
+    /* Change the color of links on hover */
+    .menu a:hover {
+        background-color: black;
+        color: yellow;
+    }
