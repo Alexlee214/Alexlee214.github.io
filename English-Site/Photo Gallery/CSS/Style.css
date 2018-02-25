@@ -196,10 +196,6 @@ body{
     padding: 1%;
 }
 
-.hoverPic:hover{
-    opacity: 0.3;
-}
-
 .hoverPic_v img{
     position: relative;
     width: 100%;
@@ -216,9 +212,6 @@ body{
     padding: 1%;
 }
 
-.hoverPic_v:hover{
-    opacity: 0.3;
-}
 
     .allPic_horizontal{
         margin-left:5 ;
@@ -228,7 +221,9 @@ body{
     .allPic_horizontal{
         margin-left:5 ;
         max-width: 100%;
-    }    
+    }  
+
+
 }    
 
 @media screen and (max-width:415px) {
@@ -285,10 +280,6 @@ body{
         padding: 1%;
     }
 
-    .hoverPic:hover{
-        opacity: 0.3;
-    }
-
     .hoverPic_v img{
         position: relative;
         width: 100%;
@@ -305,9 +296,6 @@ body{
         padding: 1%;
     }
 
-    .hoverPic_v:hover{
-        opacity: 0.3;
-    }
 
     .allPic_horizontal{
         margin-left:5 ;
