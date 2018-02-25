@@ -2,8 +2,14 @@
     width : 100%;
 }
 
+.languages a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+}
+
 body {
-background-image: url(Picture art/Background.jpg); /*You will specify your image path here.*/
+background-image: url(Picture art/Background.jpg);
 
 -moz-background-size: cover;
 -webkit-background-size: cover;
@@ -30,6 +36,7 @@ hr{
 }
 
 h1{
+    font-size: 2vw;
     color: black;
 }
 
@@ -123,6 +130,17 @@ h3{
         color: yellow;
     }
 
+    .languages a{
+        text-decoration: none;
+        color: white;
+        font-size: 4vw;
+    }
+
+    h1{
+        font-size: 5vw;
+    }
+}    
+
 @media screen and (max-width:415px) {
     .intro h1{
         font-family: Arial;
@@ -160,3 +178,15 @@ h3{
         background-color: black;
         color: yellow;
     }
+
+    .languages a{
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;
+
+    }
+
+    h1{
+        font-size: 6vw;
+    }
+}    

@@ -85,6 +85,32 @@ h3{
     color: yellow;
 }
 
+.resumePhoto{
+    width: 99%;
+    float: left;
+}
+
+.page1{
+    width: 100%;
+    height: auto;
+}
+
+.page2{
+    width: 100%;
+    height: auto;
+}
+
+.page1 img{
+    width: 100%;
+    height: auto;
+    clear: all;
+}
+
+.page2 img{
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width:800px) {
     .intro h1{
         font-family: Arial;
@@ -160,3 +186,4 @@ h3{
         background-color: black;
         color: yellow;
     }
+}  
